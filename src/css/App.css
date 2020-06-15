@@ -22,7 +22,6 @@ html {
   }
 }
 
-
 .App-link {
   color: #61dafb;
 }
@@ -30,6 +29,14 @@ html {
 img {
   height: 150px;
   width: auto;
+}
+
+span {
+  color: greenyellow;
+}
+
+.color1 {
+  color: cyan;
 }
 
 @keyframes App-logo-spin {

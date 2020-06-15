@@ -5,8 +5,8 @@ class Hello extends React.Component {
         const props = this.props;
         let bangs = "!".repeat(props.num);
         return <div>
-            <p>Hi {props.to} from {props.from}{bangs}</p>
             <img src={props.src} alt={props.alt}/>
+            <p>Hi <span>{props.to}</span> from <span>{props.from}</span>{bangs}</p>
         </div>
     }
 }

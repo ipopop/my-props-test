@@ -9,7 +9,7 @@ function App() {
   return (
     <div>
       <img src={logo512} alt="React Logo"/>
-      <h3>Props tests on React</h3>
+      <h3><span>Props</span> tests on <span className="color1">React</span></h3>
       <hr/><br/>
       <Hello
         to="Ringo"
@@ -23,7 +23,7 @@ function App() {
       <Hello
         to="John"
         from="George"
-        num={2}
+        num={4}
         data={[6,7,8,9,10]}
         isFunny
         src={unsplash2}

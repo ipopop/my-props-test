@@ -1,32 +1,34 @@
 import React from 'react';
 import Hello from './components/Hello';
 import logo512 from './img/logo512.png';
-import img1 from './img/chuttersnapQGGflC3gIzUunsplash.jpg';
-import img2 from './img/trevormckinnonjqdJ0A0lNV4unsplash.jpg';
+import unsplash1 from './img/chuttersnapQGGflC3gIzUunsplash.jpg';
+import unsplash2 from './img/trevormckinnonjqdJ0A0lNV4unsplash.jpg';
 import './css/App.css';
 
 function App() {
   return (
     <div>
+      <img src={logo512} alt="React Logo"/>
+      <h3>Props tests on React</h3>
+      <hr/><br/>
       <Hello
         to="Ringo"
         from="Paul"
         num={3}
         data={[1,2,3,4,5]}
         isFunny={false}
-        src={img1}
+        src={unsplash1}
         alt="img1 from Unsplash"
       />
       <Hello
-        to="Cher"
-        from="Sonny"
+        to="John"
+        from="George"
         num={2}
-        data={[1,2,3,4,5]}
+        data={[6,7,8,9,10]}
         isFunny
-        src={img2}
+        src={unsplash2}
         alt="img2 from Unsplash"
       />
-      <img src={logo512} alt="React Logo"/>
     </div>
   );
 }

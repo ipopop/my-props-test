@@ -9,6 +9,7 @@ html {
   color: white;
   text-align: center;
   margin: 0 auto;
+  max-width: 85%;
 }
 
 .App-logo {
@@ -37,6 +38,10 @@ span {
 
 .color1 {
   color: cyan;
+}
+
+hr {
+  max-width: 50%;
 }
 
 @keyframes App-logo-spin {

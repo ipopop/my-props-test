@@ -2,6 +2,7 @@ import React from 'react';
 import Hello from './components/Hello';
 import Charts from './components/Charts';
 import './css/App.css';
+import './css/animTxt.css';
 
 function App() {
   return (
@@ -41,7 +42,9 @@ function App() {
         <Charts />
     </content>
     <footer>
-      <p><em>"Freely inspired by 'The Modern React Bootcamp' course by Colt Steel"</em></p>
+      <div class="typewriter">
+        <p><em>"Freely inspired by 'The Modern React Bootcamp' course by Colt Steel"</em></p>
+      </div>
       <p>iPopop © 2020</p>
     </footer>
     </>

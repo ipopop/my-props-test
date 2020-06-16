@@ -83,11 +83,11 @@ span {
 }
 
 .color1 {
-  color: cyan;
+  color: #61DAFB;
 }
 
 .color2 {
-  color: orange;
+  color: #ff8923;
 }
 
 @media (prefers-reduced-motion: no-preference) {

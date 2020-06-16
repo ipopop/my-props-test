@@ -9,7 +9,7 @@ function App() {
       <content>
         <img className="logo" src="./img/logo512.png" alt="React Logo"/>
         <div class="title">
-          <h3><span>Props</span> tests on <span className="color1">React</span></h3>
+          <h3>My <span>Props</span> tests on <span className="color1">React</span></h3>
         </div>
         <div className="container">
         <div className="card">
@@ -36,7 +36,7 @@ function App() {
         </div>
         </div>
         <div class="title">
-          <h3><span className="color1">Charts Components</span> with <span>Props</span></h3>
+          <h3>Some <span className="color1">Charts Components</span> with <span>Props</span></h3>
         </div><br/>
         <Charts />
     </content>

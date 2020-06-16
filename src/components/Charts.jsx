@@ -1,5 +1,6 @@
 import React from "react";
 import c3 from "c3";
+import "./../css/charts.css"
 
 class Chart extends React.PureComponent {
   constructor() {
@@ -162,7 +163,7 @@ class Charts extends React.Component {
           columns: data,
         },
       });
-    }, 1500);
+    }, 3000);
   };
 
   render() {

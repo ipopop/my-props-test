@@ -41,7 +41,7 @@ function App() {
         <Charts />
     </content>
     <footer>
-      <p>Inspired by "The_Modern_React_Bootcamp" course by Colt Steel</p>
+      <p><em>"Inspired by 'The Modern React Bootcamp' course by Colt Steel"</em></p>
       <p>iPopop © 2020</p>
     </footer>
     </>

@@ -168,22 +168,29 @@ class Charts extends React.Component {
 
   render() {
     return (
-      <div>
-        <Div width={300}>
-          <button onClick={this.onChangeChart}>Change</button>
-          <Chart
-            data={this.state.changePie}
-            onClick={this.clickChart}
-            onMouseOver={this.mouseOverchart}
-            onMouseOut={this.mouseOutchart}
-          />
-        </Div>
+      <div className="container">
+        <div className="chartCard">
+          <Div width={300}>
+            <button onClick={this.onChangeChart}>Change</button>
+            <Chart
+              data={this.state.changePie}
+              onClick={this.clickChart}
+              onMouseOver={this.mouseOverchart}
+              onMouseOut={this.mouseOutchart}
+            />
+          </Div>
+        </div>
+        <div className="chartCard">
         <Div width={300}>
           <Chart type='donut' data={donut.data} config={donut.config} />
         </Div>
+        </div>
+        <div className="chartCard">
         <Div width={300}>
           <Chart type='gauge' data={gauge.data} config={gauge.config} />
         </Div>
+        </div>
+        <div className="chartCard">
         <Div width={300}>
           <Chart
             type='gauge'
@@ -191,15 +198,22 @@ class Charts extends React.Component {
             config={gaugeMultiData.config}
           />
         </Div>
+        </div>
+        <div className="chartCard">
         <Div width={400}>
           <Chart type='bar' data={bar.data} />
         </Div>
+        </div>
+        <div className="chartCard">
         <Div width={400}>
           <Chart type='bar' data={barCombine.data} />
         </Div>
+        </div>
+        <div className="chartCard">
         <Div width={500}>
           <Chart type='spline' data={this.state.realtime} />
         </Div>
+        </div>
       </div>
     );
   }

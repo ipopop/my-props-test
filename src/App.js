@@ -36,7 +36,7 @@ function App() {
         </div>
         </div>
         <div class="title">
-          <h3>Some <span className="color1">Charts Components</span> with <span>Props</span></h3>
+          <h3>Various <span className="color2">Charts Components</span><br/>with inner <span>Props</span> on <span className="color1">React</span></h3>
         </div><br/>
         <Charts />
     </content>

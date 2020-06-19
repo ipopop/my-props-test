@@ -1,6 +1,7 @@
 import React from 'react';
 import Hello from './components/Hello';
 import Charts from './components/Charts';
+import Artist from './components/ArtistList';
 import './css/App.css';
 import './css/animTxt.css';
 
@@ -10,7 +11,7 @@ function App() {
       <content>
         <img className="logo" src="./img/logo512.png" alt="React Logo"/>
         <div class="title">
-          <h3>My <span>Props</span> tests on <span className="color1">React</span></h3>
+          <h3>My firsts <span>Props</span> tests on <span className="color1">React</span></h3>
         </div>
         <div className="container">
         <div className="card">
@@ -40,10 +41,27 @@ function App() {
           <h3>Various <span className="color2">Charts Components</span><br/>with inner <span>Props</span> on <span className="color1">React</span></h3>
         </div><br/>
         <Charts />
+        <div class="title">
+          <h3>Artists List (<span className="color1">React</span> <span className="color2">Components</span> with <span>Props</span>)</h3>
+        </div>
+        <div className="container">
+          <div className="artistCard">
+          <Artist
+            name="John Lennon"
+            job={["Singer","Composer","Musician"]}
+          />
+          </div>
+          <div className="artistCard">
+          <Artist
+            name="Jodie Foster"
+            job={["Actress","Film director","Producer"]}
+          />
+          </div>
+        </div>
     </content>
     <footer>
       <div class="typewriter">
-        <p><em>"Freely inspired by 'The Modern React Bootcamp' course by Colt Steel"</em></p>
+        <p><em>"Freely inspired by the begining of 'The Modern React Bootcamp' course by Colt Steel"</em></p>
       </div>
       <p>iPopop © 2020</p>
     </footer>

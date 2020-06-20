@@ -2,6 +2,7 @@ import React from 'react';
 import Hello from './components/Hello';
 import Charts from './components/Charts';
 import Artist from './components/ArtistList';
+import SlotMachine from './components/slotMachine';
 import './css/App.css';
 import './css/animTxt.css';
 
@@ -55,6 +56,32 @@ function App() {
           <Artist
             name="Jodie Foster"
             job={["Actress","Film director","Producer"]}
+          />
+          </div>
+        </div>
+        <div class="title">
+          <h3>Slot Machine (<span className="color1">React</span> <span className="color2">Components</span> with <span>Props</span>)</h3>
+        </div>
+        <div className="container">
+          <div className="artistCard">
+          <SlotMachine
+            s1="🍊"
+            s2="🍉"
+            s3="🍓"
+          />
+          </div>
+          <div className="artistCard">
+          <SlotMachine
+            s1="🍐"
+            s2="🍎"
+            s3="🍏"
+          />
+          </div>
+          <div className="artistCard">
+          <SlotMachine
+            s1="🍒"
+            s2="🍒"
+            s3="🍒"
           />
           </div>
         </div>

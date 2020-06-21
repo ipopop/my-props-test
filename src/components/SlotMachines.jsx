@@ -1,5 +1,5 @@
 import React from 'react';
-import './../css/SlotMachines.css';
+import './../css/SlotMachines';
 
 class SlotMachines extends React.Component {
     render() {

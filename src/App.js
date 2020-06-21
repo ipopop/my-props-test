@@ -65,7 +65,7 @@ function App() {
             />
           </div>
           <div className='card-2'>
-            <Artist job={["...", "...", "..."]}/>
+            <Artist />
           </div>
         </div>
         <div class='title'>

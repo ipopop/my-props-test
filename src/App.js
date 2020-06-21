@@ -3,7 +3,7 @@ import Hello from "./components/Hello";
 import Charts from "./components/Charts";
 import Artist from "./components/ArtistList";
 import SlotMachines from "./components/SlotMachines";
-import "./css/app.css";
+import "./css/App.css";
 
 function App() {
   return (
@@ -13,7 +13,7 @@ function App() {
         <a href='https://my-props-test.vercel.app/'>
           <img className='logo' src='./img/logo512.png' alt='React Logo' />
         </a>
-        
+
         <div class='title'>
           <h3>
             My firsts <span>Props</span> tests on{" "}

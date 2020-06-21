@@ -1,12 +1,29 @@
-html {
+.artist .card-2 {
+  padding-bottom: 1rem;
+}
+
+.artist p {
     color: #f1f1f1;
+    text-align: left;
 }
 
 .span {
     color: greenyellow;
 }
 
-li {
+ul {
+    list-style: none;
     text-align: left;
 }
 
+.single-before {
+    list-style: none;
+    color: #f1f1f1;
+  }
+  .single-before li {
+    text-indent: -2rem;
+  }
+  .single-before li::before {
+    color: #61DAFB;
+    content: "✔ ";
+  }

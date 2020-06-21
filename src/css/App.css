@@ -115,7 +115,7 @@ span {
 footer {
   background-color: #222;
   width: 100%;
-  margin: 0 auto;
+  margin: 2rem auto 0;
   padding: 2rem;
   text-align: center;
 }

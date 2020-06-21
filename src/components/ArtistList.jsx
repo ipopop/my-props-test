@@ -3,7 +3,7 @@ import './../css/artistList.css';
 
 class Artist extends React.Component {
     static defaultProps = {
-        src: 'https://dummyimage.com/150x100.jpg',
+        src: 'https://dummyimage.com/150x150/333/aaa.jpg',
         alt: ''
     }
     render() {

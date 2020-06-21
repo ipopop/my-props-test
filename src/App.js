@@ -9,15 +9,18 @@ function App() {
   return (
     <>
       <content>
+
         <a href='https://my-props-test.vercel.app/'>
           <img className='logo' src='./img/logo512.png' alt='React Logo' />
         </a>
+        
         <div class='title'>
           <h3>
             My firsts <span>Props</span> tests on{" "}
             <span className='color1'>React</span>
           </h3>
         </div>
+
         <div className='container'>
           <div className='card'>
             <Hello
@@ -42,12 +45,14 @@ function App() {
             />
           </div>
         </div>
+
         <div class='title'>
           <h3>
             Artists List (<span className='color1'>React</span>{" "}
             <span className='color2'>Components</span> with <span>Props</span>)
           </h3>
         </div>
+
         <div className='container artist'>
           <div className='card-2'>
             <Artist
@@ -67,12 +72,14 @@ function App() {
             <Artist />
           </div>
         </div>
+
         <div class='title'>
           <h3>
             Slot Machine (<span className='color1'>React</span>{" "}
             <span className='color2'>Components</span> with <span>Props</span>)
           </h3>
         </div>
+
         <div className='container'>
           <div className='card-2'>
             <SlotMachines s1='🍊' s2='🍉' s3='🍓' />
@@ -93,6 +100,7 @@ function App() {
             <SlotMachines s1='🐵' s2='🙈' s3='🙉' />
           </div>
         </div>
+
         <div class='title'>
           <h3>
             Various <span className='color2'>Charts Components</span>
@@ -102,8 +110,11 @@ function App() {
           </h3>
         </div>
         <br />
+
         <Charts />
+
       </content>
+
       <footer>
         <div>
           <p>

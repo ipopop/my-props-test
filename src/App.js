@@ -2,7 +2,7 @@ import React from "react";
 import Hello from "./components/Hello";
 import Charts from "./components/Charts";
 import Artist from "./components/ArtistList";
-import SlotMachine from "./components/slotMachine";
+import SlotMachine from "./components/SlotMachine";
 import "./css/App.css";
 
 function App() {
@@ -51,14 +51,14 @@ function App() {
         <div className='container artist'>
           <div className='card-2'>
             <Artist
-              src='https://www.cheatsheet.com/wp-content/uploads/2020/06/people-for-peace-patch-john-lennon.jpg'
+              src='./img/JLennon.jpg'
               name='John Lennon'
               job={["Singer", "Composer", "Musician"]}
             />
           </div>
           <div className='card-2'>
             <Artist
-              src='https://www.startpage.com/av/proxy-image?piurl=https%3A%2F%2Fencrypted-tbn0.gstatic.com%2Fimages%3Fq%3Dtbn%3AANd9GcRBiDpNrsR4p2l7z5cfpdia-5MZEEzF5LKzMg3cmHmvcsXPm8Wp%26s&sp=1592734958Td500bb0190c76f2f7a5021e6a1e9d9b8a9c76595af2b5507aee80f8d9a81276e'
+              src='./img/NPortman.jpg'
               name='Natalie Portman'
               job={["Actress", "Film director", "Producer"]}
             />
@@ -78,10 +78,19 @@ function App() {
             <SlotMachine s1='🍊' s2='🍉' s3='🍓' />
           </div>
           <div className='card-2'>
+            <SlotMachine s1='🍒' s2='🍒' s3='🍒' />
+          </div>
+          <div className='card-2'>
             <SlotMachine s1='🍐' s2='🍎' s3='🍏' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🍒' s2='🍒' s3='🍒' />
+            <SlotMachine s1='🍋' s2='🍋' s3='🍋' />
+          </div>
+          <div className='card-2'>
+            <SlotMachine s1='🍀' s2='🍀' s3='🍀' />
+          </div>
+          <div className='card-2'>
+            <SlotMachine s1='🐵' s2='🙈' s3='🙉' />
           </div>
         </div>
         <div class='title'>

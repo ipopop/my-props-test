@@ -1,6 +1,6 @@
 import React from "react";
 import c3 from "c3";
-import "./../css/Charts"
+import "./../css/Charts.css";
 
 class Chart extends React.PureComponent {
   constructor() {

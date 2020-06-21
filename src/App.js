@@ -4,7 +4,6 @@ import Charts from "./components/Charts";
 import Artist from "./components/ArtistList";
 import SlotMachine from "./components/slotMachine";
 import "./css/App.css";
-import "./css/animTxt.css";
 
 function App() {
   return (
@@ -97,7 +96,7 @@ function App() {
         <Charts />
       </content>
       <footer>
-        <div class='typewriter'>
+        <div>
           <p>
             <em>
               "Freely inspired by the begining of 'The Modern React Bootcamp'

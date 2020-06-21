@@ -60,7 +60,7 @@ function App() {
             <Artist
               src='./img/NPortman.jpg'
               name='Natalie Portman'
-              job={["Actress", "Film director", "Producer"]}
+              job={["Actress", "Film Director", "Producer"]}
             />
           </div>
           <div className='card-2'>

@@ -66,12 +66,12 @@ p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }
 
-.chartCard, .artistCard {
+.card-2 {
   margin: 1.5rem 1rem 1rem;
   height: auto;
   padding: 2rem;
   border-radius: 8px;
-  border: 1px solid rgba(85, 85, 85, 0.5);
+  border: 1px solid rgba(173, 255, 47, 0.17);
   max-width: fit-content;
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
 }

@@ -10,7 +10,17 @@ html {
     font-size: 3rem;
 }
 
-p.slot {
+p.result {
     font-size: 1.5rem;
     color: greenyellow;
+    border-radius: 8px;
+    padding: .5rem;
+}
+
+.slotWin {
+    border: 2px solid rgba(255, 0, 255, 0.5);
+}
+
+.slotLose {
+    border: 2px solid rgba(255, 238, 2, 0.5);
 }

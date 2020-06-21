@@ -46,13 +46,13 @@ function App() {
           <h3>Artists List (<span className="color1">React</span> <span className="color2">Components</span> with <span>Props</span>)</h3>
         </div>
         <div className="container">
-          <div className="artistCard">
+          <div className="card-2">
           <Artist
             name="John Lennon"
             job={["Singer","Composer","Musician"]}
           />
           </div>
-          <div className="artistCard">
+          <div className="card-2">
           <Artist
             name="Jodie Foster"
             job={["Actress","Film director","Producer"]}
@@ -63,21 +63,21 @@ function App() {
           <h3>Slot Machine (<span className="color1">React</span> <span className="color2">Components</span> with <span>Props</span>)</h3>
         </div>
         <div className="container">
-          <div className="artistCard">
+          <div className="card-2">
           <SlotMachine
             s1="🍊"
             s2="🍉"
             s3="🍓"
           />
           </div>
-          <div className="artistCard">
+          <div className="card-2">
           <SlotMachine
             s1="🍐"
             s2="🍎"
             s3="🍏"
           />
           </div>
-          <div className="artistCard">
+          <div className="card-2">
           <SlotMachine
             s1="🍒"
             s2="🍒"

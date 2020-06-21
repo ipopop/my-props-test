@@ -2,7 +2,7 @@ import React from "react";
 import Hello from "./components/Hello";
 import Charts from "./components/Charts";
 import Artist from "./components/ArtistList";
-import SlotMachine from "./components/SlotMachine";
+import SlotMachines from "./components/SlotMachines";
 import "./css/App.css";
 
 function App() {
@@ -75,22 +75,22 @@ function App() {
         </div>
         <div className='container'>
           <div className='card-2'>
-            <SlotMachine s1='🍊' s2='🍉' s3='🍓' />
+            <SlotMachines s1='🍊' s2='🍉' s3='🍓' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🍒' s2='🍒' s3='🍒' />
+            <SlotMachines s1='🍒' s2='🍒' s3='🍒' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🍐' s2='🍎' s3='🍏' />
+            <SlotMachines s1='🍐' s2='🍎' s3='🍏' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🍋' s2='🍋' s3='🍋' />
+            <SlotMachines s1='🍋' s2='🍋' s3='🍋' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🍀' s2='🍀' s3='🍀' />
+            <SlotMachines s1='🍀' s2='🍀' s3='🍀' />
           </div>
           <div className='card-2'>
-            <SlotMachine s1='🐵' s2='🙈' s3='🙉' />
+            <SlotMachines s1='🐵' s2='🙈' s3='🙉' />
           </div>
         </div>
         <div class='title'>

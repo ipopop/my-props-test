@@ -1,7 +1,7 @@
 import React from 'react';
-import './../css/SlotMachine.css';
+import './../css/SlotMachines.css';
 
-class SlotMachine extends React.Component {
+class SlotMachines extends React.Component {
     render() {
         const { s1, s2, s3 } = this.props;
         const winner = (s1 === s2) && (s2 === s3);
@@ -12,4 +12,4 @@ class SlotMachine extends React.Component {
     }
 }
 
-export default SlotMachine;
+export default SlotMachines;

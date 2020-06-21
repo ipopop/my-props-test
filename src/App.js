@@ -3,7 +3,7 @@ import Hello from "./components/Hello";
 import Charts from "./components/Charts";
 import Artist from "./components/ArtistList";
 import SlotMachines from "./components/SlotMachines";
-import "./css/App.css";
+import "./css/app.css";
 
 function App() {
   return (

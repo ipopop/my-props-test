@@ -1,5 +1,5 @@
 import React from 'react';
-import './../css/ArtistList.css';
+import './../css/artistList.css';
 
 class Artist extends React.Component {
     static defaultProps = {

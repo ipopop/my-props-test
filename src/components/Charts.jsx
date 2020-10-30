@@ -168,7 +168,7 @@ class Charts extends React.Component {
 
   render() {
     return (
-      <div className="container">
+      <div className="container charts">
         <div className="card-2">
           <Div width={300}>
             <button onClick={this.onChangeChart}>Change</button>
@@ -180,17 +180,17 @@ class Charts extends React.Component {
             />
           </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={300}>
           <Chart type='donut' data={donut.data} config={donut.config} />
         </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={300}>
           <Chart type='gauge' data={gauge.data} config={gauge.config} />
         </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={300}>
           <Chart
             type='gauge'
@@ -199,17 +199,17 @@ class Charts extends React.Component {
           />
         </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={400}>
           <Chart type='bar' data={bar.data} />
         </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={400}>
           <Chart type='bar' data={barCombine.data} />
         </Div>
         </div>
-        <div className="card-2">
+        <div className="card-3">
         <Div width={500}>
           <Chart type='spline' data={this.state.realtime} />
         </Div>

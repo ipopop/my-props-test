@@ -18,6 +18,7 @@ content, .title, .container {
 }
 
 .container {
+  max-width: 967px;
   flex-direction: row;
   flex-wrap: wrap;
 }
@@ -74,7 +75,7 @@ p {
   overflow: hidden;
 }
 
-.card-2 {
+.card-2, .card-3 {
   margin: 1.5rem 1rem 1rem;
   max-width: fit-content;
   height: auto;
@@ -84,6 +85,10 @@ p {
   box-shadow: 0 10px 20px rgba(0,0,0,0.19), 0 6px 6px rgba(0,0,0,0.23);
   width: 65vw;
   overflow: hidden;
+}
+
+.charts {
+  max-width: 1000px;
 }
 
 .card img {

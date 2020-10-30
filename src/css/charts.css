@@ -1,3 +1,3 @@
-html {
-    color: #333;
+html, text, g, .c3-chart-arc .c3-gauge-value, .c3-axis, g.tick, .top-bar-section, .has-dropdown, .c3-chart-arcs, .c3-stanford-texts, .c3-chart-arcs-title, .c3-axis-y, .c3-axis-x, .c3-legend-item, .c3-legend-item-tile, .legend span, rect, .c3-event-rect, .c3-bars, .c3-bars path, .c3-xgrid-focus, .c3-ygrid, .chart.data.colors {
+  fill: #aaa69d;
 }

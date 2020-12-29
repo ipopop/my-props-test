@@ -32,6 +32,7 @@ content, .title, .container {
 
 div.title {
   margin-top: 3rem;
+  width: 78vw;
 }
 
 h3,

@@ -1,3 +1,9 @@
+# my-props-test
+
+my [Live Version](https://my-props-test.vercel.app/)
+
+"Freely inspired by the begining of [The Modern React Bootcamp](https://www.udemy.com/course/modern-react-bootcamp/) course by Colt Steel"
+
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
 ## Available Scripts
